@@ -21,17 +21,20 @@ This is whole workspace of ros but not a single package.
 
 ```bash
 git clone https://github.com/newsun-boki/3dBall.git
+cd 3dBall
 catkin_make # rm -rf ./build ./devel if exits
 source devel/setup.bash
 ```
 ```bash
 roscore
 
-rosrun random_ball simu.py
+rosrun random_ball simu.py #in 3dball directory
 
-rosrun random_ball basic_shapes
+rosrun random_ball basic_shapes #in 3dball directory
 
-rviz -d rmtrain_ws/src/random_ball/rm.rviz
+rviz -d src/random_ball/rm.rviz #in 3dball directory
 ```
 
+
 ![](https://cdn.jsdelivr.net/gh/newsun-boki/img-folder@main/20211124/3dball.3jgtz0qnhjm0.gif)
+( I add collide after shotting the gif)

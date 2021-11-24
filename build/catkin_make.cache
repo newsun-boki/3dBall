@@ -1,2 +1,0 @@
-random_ball
--DCATKIN_DEVEL_PREFIX=/home/xjturm/3dBall/devel -DCMAKE_INSTALL_PREFIX=/home/xjturm/3dBall/install -G Unix Makefiles
