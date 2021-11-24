@@ -6,17 +6,18 @@
  * @Description: In User Settings Edit
  * @FilePath: /rmtrain_ws/README.md
 -->
-# 3DBall
+# 视觉进阶培训1
 
-This is whole workspace of ros but not a single package.
-## enviroments
+三维弹球
+
+## 依赖
 
 + opencv-python 3.4.4
   
 + numpy 1.20
   
 + ros melodic
-# quick start
+# 快速开始
 
 
 ```bash
@@ -37,4 +38,5 @@ rviz -d src/random_ball/rm.rviz #in 3dball directory
 
 
 ![](https://cdn.jsdelivr.net/gh/newsun-boki/img-folder@main/20211124/3dball.3jgtz0qnhjm0.gif)
-( I add collide after shotting the gif)
+
+( I add collide after the gif)
