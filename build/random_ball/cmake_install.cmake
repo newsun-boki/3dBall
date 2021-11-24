@@ -1,8 +1,8 @@
-# Install script for directory: /home/newsun/rm/rmtrain_ws/src/random_ball
+# Install script for directory: /home/xjturm/3dBall/src/random_ball
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/newsun/rm/rmtrain_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xjturm/3dBall/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/newsun/rm/rmtrain_ws/build/random_ball/catkin_generated/installspace/random_ball.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xjturm/3dBall/build/random_ball/catkin_generated/installspace/random_ball.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/random_ball/cmake" TYPE FILE FILES
-    "/home/newsun/rm/rmtrain_ws/build/random_ball/catkin_generated/installspace/random_ballConfig.cmake"
-    "/home/newsun/rm/rmtrain_ws/build/random_ball/catkin_generated/installspace/random_ballConfig-version.cmake"
+    "/home/xjturm/3dBall/build/random_ball/catkin_generated/installspace/random_ballConfig.cmake"
+    "/home/xjturm/3dBall/build/random_ball/catkin_generated/installspace/random_ballConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/random_ball" TYPE FILE FILES "/home/newsun/rm/rmtrain_ws/src/random_ball/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/random_ball" TYPE FILE FILES "/home/xjturm/3dBall/src/random_ball/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/random_ball" TYPE PROGRAM FILES "/home/newsun/rm/rmtrain_ws/build/random_ball/catkin_generated/installspace/simu.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/random_ball" TYPE PROGRAM FILES "/home/xjturm/3dBall/build/random_ball/catkin_generated/installspace/simu.py")
 endif()
 

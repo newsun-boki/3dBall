@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/newsun/rm/rmtrain_ws/src
+CMAKE_SOURCE_DIR = /home/xjturm/3dBall/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/newsun/rm/rmtrain_ws/build
+CMAKE_BINARY_DIR = /home/xjturm/3dBall/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/newsun/rm/rmtrain_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/newsun/rm/rmtrain_ws/src /home/newsun/rm/rmtrain_ws/src /home/newsun/rm/rmtrain_ws/build /home/newsun/rm/rmtrain_ws/build /home/newsun/rm/rmtrain_ws/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xjturm/3dBall/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xjturm/3dBall/src /home/xjturm/3dBall/src /home/xjturm/3dBall/build /home/xjturm/3dBall/build /home/xjturm/3dBall/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

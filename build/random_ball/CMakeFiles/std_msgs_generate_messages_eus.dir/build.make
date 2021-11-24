@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/newsun/rm/rmtrain_ws/src
+CMAKE_SOURCE_DIR = /home/xjturm/3dBall/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/newsun/rm/rmtrain_ws/build
+CMAKE_BINARY_DIR = /home/xjturm/3dBall/build
 
 # Utility rule file for std_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ random_ball/CMakeFiles/std_msgs_generate_messages_eus.dir/build: std_msgs_genera
 .PHONY : random_ball/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 
 random_ball/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	cd /home/newsun/rm/rmtrain_ws/build/random_ball && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/xjturm/3dBall/build/random_ball && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : random_ball/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 random_ball/CMakeFiles/std_msgs_generate_messages_eus.dir/depend:
-	cd /home/newsun/rm/rmtrain_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/newsun/rm/rmtrain_ws/src /home/newsun/rm/rmtrain_ws/src/random_ball /home/newsun/rm/rmtrain_ws/build /home/newsun/rm/rmtrain_ws/build/random_ball /home/newsun/rm/rmtrain_ws/build/random_ball/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xjturm/3dBall/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xjturm/3dBall/src /home/xjturm/3dBall/src/random_ball /home/xjturm/3dBall/build /home/xjturm/3dBall/build/random_ball /home/xjturm/3dBall/build/random_ball/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : random_ball/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 

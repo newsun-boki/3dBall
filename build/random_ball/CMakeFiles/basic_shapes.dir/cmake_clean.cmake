@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/basic_shapes.dir/src/basic_shapes.cpp.o"
-  "/home/newsun/rm/rmtrain_ws/devel/lib/random_ball/basic_shapes.pdb"
-  "/home/newsun/rm/rmtrain_ws/devel/lib/random_ball/basic_shapes"
+  "/home/xjturm/3dBall/devel/lib/random_ball/basic_shapes.pdb"
+  "/home/xjturm/3dBall/devel/lib/random_ball/basic_shapes"
 )
 
 # Per-language clean rules from dependency scanning.

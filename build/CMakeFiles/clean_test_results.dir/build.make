@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/newsun/rm/rmtrain_ws/src
+CMAKE_SOURCE_DIR = /home/xjturm/3dBall/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/newsun/rm/rmtrain_ws/build
+CMAKE_BINARY_DIR = /home/xjturm/3dBall/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/newsun/rm/rmtrain_ws/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/newsun/rm/rmtrain_ws/build/test_results
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/xjturm/3dBall/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/newsun/rm/rmtrain_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/newsun/rm/rmtrain_ws/src /home/newsun/rm/rmtrain_ws/src /home/newsun/rm/rmtrain_ws/build /home/newsun/rm/rmtrain_ws/build /home/newsun/rm/rmtrain_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xjturm/3dBall/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xjturm/3dBall/src /home/xjturm/3dBall/src /home/xjturm/3dBall/build /home/xjturm/3dBall/build /home/xjturm/3dBall/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

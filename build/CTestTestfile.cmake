@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/newsun/rm/rmtrain_ws/src
-# Build directory: /home/newsun/rm/rmtrain_ws/build
+# Source directory: /home/xjturm/3dBall/src
+# Build directory: /home/xjturm/3dBall/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

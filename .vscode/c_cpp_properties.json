@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/xjturm/Vision/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/xjturm/Vision/src/armor/include/**",
+        "/home/xjturm/Vision/src/serial_com/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

@@ -1,4 +1,4 @@
-prefix=/home/newsun/rm/rmtrain_ws/install
+prefix=/home/xjturm/3dBall/install
 
 Name: random_ball
 Description: Description of random_ball

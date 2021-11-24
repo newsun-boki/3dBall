@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/newsun/rm/rmtrain_ws/src/random_ball/src/basic_shapes.cpp
+/home/xjturm/3dBall/src/random_ball/src/basic_shapes.cpp
 ros/ros.h
 -
 visualization_msgs/Marker.h
