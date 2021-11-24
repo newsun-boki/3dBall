@@ -25,6 +25,8 @@ catkin_make # rm -rf ./build ./devel if exits
 source devel/setup.bash
 ```
 ```bash
+roscore
+
 rosrun random_ball simu.py
 
 rosrun random_ball basic_shapes
