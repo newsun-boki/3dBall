@@ -1,0 +1,2 @@
+random_ball
+-DCATKIN_DEVEL_PREFIX=/home/newsun/rm/rmtrain_ws/devel -DCMAKE_INSTALL_PREFIX=/home/newsun/rm/rmtrain_ws/install -G Unix Makefiles

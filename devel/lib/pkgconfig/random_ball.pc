@@ -1,0 +1,8 @@
+prefix=/home/newsun/rm/rmtrain_ws/devel
+
+Name: random_ball
+Description: Description of random_ball
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
