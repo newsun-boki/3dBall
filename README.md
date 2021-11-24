@@ -32,4 +32,4 @@ rosrun random_ball basic_shapes
 rviz -d rmtrain_ws/src/random_ball/rm.rviz
 ```
 
-![3dball](https://cdn.jsdelivr.net/gh/newsun-boki/img-folder@main/20211124/3dball.3jgtz0qnhjm0.gif)
+![](https://cdn.jsdelivr.net/gh/newsun-boki/img-folder@main/20211124/3dball.3jgtz0qnhjm0.gif)
