@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-11-24 15:29:53
- * @LastEditTime: 2021-11-25 14:28:21
+ * @LastEditTime: 2021-11-25 14:35:11
  * @LastEditors: newsun-HP-Pavilion-Gaming-Laptop-15-dk0xxx
  * @Description: In User Settings Edit
  * @FilePath: /rmtrain_ws/README.md
@@ -69,7 +69,9 @@ rviz -d src/random_ball/rm.rviz #在rviz中显示
 这里需要重新写一个**预测节点**，并在节点内创建一个`Subscriber`用于订阅`/position`话题。
 #### 预测
 使用各种卡尔曼滤波(如EKF)的手段进行**预测**。通过小球之前的位置预测小球一段时间之后的位置，具体预测多久可自行决定。这里需要你学习一些卡尔曼的相关知识，使用Eigen库辅助来完成一些数学运算，尽量不要使用opencv自带的卡尔曼滤波。推荐B站DR_CAN的卡尔曼滤波相关[讲解视频](https://www.bilibili.com/video/BV1ez4y1X7eR).但注意简单的卡尔曼是线性的，所以需要用一些如扩展卡尔曼等。
+
 ![](https://cdn.jsdelivr.net/gh/newsun-boki/img-folder@main/20211125/Screenshot-from-2021-11-25-14-19-03.49vp6ibwwqm0.png)
+虽然卡尔曼是一个滤波算法，但由于其方法特性同样可以用来做预测。还有一个卡尔曼用于[预测小球的讲解视频](https://www.bilibili.com/video/BV1dQ4y1m7ZC)(这个视频给了我这次任务灵感，虽然我并没有看)
 
 
 #### RVIZ显示
